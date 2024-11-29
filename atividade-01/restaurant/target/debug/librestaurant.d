@@ -1,0 +1,1 @@
+C:\restaurant\target\debug\librestaurant.rlib: C:\restaurant\src\back_of_house.rs C:\restaurant\src\front_of_house\hosting.rs C:\restaurant\src\front_of_house\serving.rs C:\restaurant\src\front_of_house.rs C:\restaurant\src\lib.rs
