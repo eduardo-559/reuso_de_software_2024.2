@@ -76,6 +76,37 @@ clienteRepo.save(new Cliente("João Silva", "joao@email.com"));
 clienteRepo.findAll().forEach(System.out::println);
 ```
 
+### Salvando clientes em arquivo JSON
+```java
+[INFO] Criando repositório de produtos em memória...
+[INFO] Salvando produto: Produto{nome='Laptop', preco=3000.0}
+[INFO] Salvando produto: Produto{nome='Mouse', preco=50.0}
+[INFO] Listando todos os produtos...
+[INFO] Produto encontrado: Produto{nome='Laptop', preco=3000.0}
+[INFO] Produto encontrado: Produto{nome='Mouse', preco=50.0}
+
+[INFO] Criando repositório de clientes em arquivo: clientes.json
+[INFO] Salvando cliente: Cliente{nome='João Silva', email='joao@email.com'}
+[INFO] Salvando cliente: Cliente{nome='Maria Oliveira', email='maria@email.com'}
+[INFO] Listando todos os clientes do arquivo...
+[INFO] Cliente encontrado: Cliente{nome='João Silva', email='joao@email.com'}
+[INFO] Cliente encontrado: Cliente{nome='Maria Oliveira', email='maria@email.com'}
+
+[INFO] Buscando produto com ID 1...
+[INFO] Produto encontrado: Produto{nome='Laptop', preco=3000.0}
+[INFO] Atualizando produto com ID 1 para novo preço: 2800.0
+[INFO] Produto atualizado: Produto{nome='Laptop', preco=2800.0}
+
+[INFO] Buscando cliente com ID 2...
+[INFO] Cliente encontrado: Cliente{nome='Maria Oliveira', email='maria@email.com'}
+[INFO] Removendo cliente com ID 2...
+[INFO] Cliente removido com sucesso.
+
+[INFO] Listando todos os clientes do arquivo...
+[INFO] Cliente encontrado: Cliente{nome='João Silva', email='joao@email.com'}
+[INFO] Nenhum outro cliente encontrado.
+```
+
 
 ## 🛠 Tecnologias Utilizadas
 
