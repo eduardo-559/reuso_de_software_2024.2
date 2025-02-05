@@ -1,0 +1,14 @@
+[
+    {
+        "nome": "Laptop",
+        "preco": 3000.0
+    },
+    {
+        "nome": "Mouse",
+        "preco": 50.0
+    },
+    {
+        "nome": "Teclado",
+        "preco": 150.0
+    }
+]
