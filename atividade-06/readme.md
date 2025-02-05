@@ -76,7 +76,7 @@ clienteRepo.save(new Cliente("João Silva", "joao@email.com"));
 clienteRepo.findAll().forEach(System.out::println);
 ```
 
-### Salvando clientes em arquivo JSON
+### Logs gerados
 ```java
 [INFO] Criando repositório de produtos em memória...
 [INFO] Salvando produto: Produto{nome='Laptop', preco=3000.0}
